@@ -1,0 +1,17 @@
+{
+  "name": "purescript-web-geometry",
+  "homepage": "https://github.com/keijokapp/purescript-web-geometry",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/keijokapp/purescript-web-geometry.git"
+  },
+  "ignore": [
+    "**/.*",
+    "bower_components",
+    "node_modules",
+    "output",
+    "bower.json",
+    "package.json"
+  ]
+}
