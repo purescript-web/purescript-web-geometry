@@ -1,11 +1,9 @@
-"use strict";
-
-exports.length = function (domRectList) {
+export function length(domRectList) {
   return domRectList.length;
-};
+}
 
-exports.item = function (domRectList) {
+export function item(domRectList) {
   return function (index) {
     return domRectList.item(index);
   };
-};
+}

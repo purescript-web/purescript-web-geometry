@@ -1,12 +1,10 @@
-"use strict";
-
 function getter(property) {
   return function (domRect) {
     return domRect[property];
   };
 }
 
-exports.new = function (x) {
+export function new_(x) {
   return function (y) {
     return function (width) {
       return function (height) {
@@ -14,13 +12,13 @@ exports.new = function (x) {
       };
     };
   };
-};
+}
 
-exports.x = getter("x");
-exports.y = getter("y");
-exports.width = getter("width");
-exports.height = getter("height");
-exports.top = getter("top");
-exports.right = getter("right");
-exports.bottom = getter("bottom");
-exports.left = getter("left");
+export const x = getter("x");
+export const y = getter("y");
+export const width = getter("width");
+export const height = getter("height");
+export const top = getter("top");
+export const right = getter("right");
+export const bottom = getter("bottom");
+export const left = getter("left");

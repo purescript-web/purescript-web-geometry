@@ -2,7 +2,11 @@ module Web.Geometry.DOMRect where
 
 foreign import data DOMRect :: Type
 
-foreign import new :: Number -> Number -> Number -> Number -> DOMRect
+foreign import new_ :: Number -> Number -> Number -> Number -> DOMRect
+
+new :: Number -> Number -> Number -> Number -> DOMRect
+new = new_
+
 foreign import x :: DOMRect -> Number
 foreign import y :: DOMRect -> Number
 foreign import width :: DOMRect -> Number
