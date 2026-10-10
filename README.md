@@ -5,7 +5,7 @@ Type definitions and low level interface implementations for the [W3C Geometry I
 ## Installation
 
 ```
-bower install purescript-web-geometry
+spago install web-geometry
 ```
 
 ## Documentation
