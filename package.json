@@ -2,7 +2,7 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "build": "spago build --pedantic-packages",
+    "build": "spago build --pedantic-packages --strict",
     "lint": "oxlint src",
     "format": "purs-tidy format-in-place 'src/**/*.purs' && oxfmt --write 'src/**/*.js'",
     "format:check": "purs-tidy check 'src/**/*.purs' && oxfmt --check 'src/**/*.js'"
